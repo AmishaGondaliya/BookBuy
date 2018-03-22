@@ -1,0 +1,250 @@
+/* The styles for the elements */
+html {
+    background-image: -moz-linear-gradient(top, white 0%, #89f9e7 100%);
+}
+body { 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 964px;
+    height: 980px;
+    background-color: white;
+    margin: 0px auto;
+    padding: 0px 25px;
+    border: 1px solid black;
+}
+h1 { font-size: 150%;
+padding-bottom: 0.25em;
+margin-left: 80px;
+}
+h2 { font-size: 125%; }
+h3 { font-size: 100%; }
+h4 { font-size: 100%; }
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: right;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+header { 
+    padding-bottom: 2em;
+    border-bottom: 2px solid #ef9c00;
+}
+header h1 {
+    color: #ef9c00;
+    margin-left: 0px;
+   /* margin-bottom: 0.75em; */
+}
+header h2 {
+    color: green;
+    font-style: italic;
+    margin-left: 0px;
+}
+header h3 {
+    color: blue;
+    font-style: italic;
+    margin-left: 0px;
+}
+header h4 {
+    color: blue;
+    font-style: italic;
+    margin-left: 0px;
+}
+label {
+    font-size: 12px;
+    font-weight: bold;
+}
+/*input[type="text"], input[type="email"] {  
+    width: 30em;
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;
+}*/
+
+input[type="submit"]{
+    font-size: 10px;
+}
+span {
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;    
+}
+br {
+    clear: both;
+}
+
+/* The styles for the classes */
+.pad_top {
+    padding-top: 0.5em;
+}
+.margin_left {
+    margin-left: 0.5em;
+}
+
+/* The styles for the tables */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50em;
+}
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: .5em;
+}
+.right {
+    text-align: right;
+}
+
+
+/* The styles for displaying forms and buttons */
+.inline {
+    display: inline;
+}
+.confirm_button {
+    width: 5em;
+}
+#codeBox, #priceBox {
+    width: 6em;
+}
+.iconDetails{
+    float:left;
+    height:100px;
+    width:100px;
+    position: absolute;
+    top: 3%;
+}
+
+.bookIcon{
+    float:left;
+    height:150px;
+    width:150px;
+    position: absolute;
+    top: 3%;
+}
+
+.removeIcon{
+    font-size: 20px;
+    color: red;
+}
+
+.intro {
+    font-size: 150%;
+     color: #200651;
+    font-variant-position:super;
+    padding-left: 50px;
+    padding-top: 10px;
+   
+}
+
+.introheading {
+    font-size: 400%;
+    color: orangered;
+    font-variant-position:super;
+    padding-top: 50px;
+    padding-left: 50px;
+    
+}
+
+.divregister {
+    display: inline;
+}
+
+.hrefAhome{
+    font-size: 150%;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.adminlinks{
+    font-size: 250%;
+   
+    
+}
+
+.adminmain{
+    font-size: 350%;
+   text-align: center;
+    color: orangered;
+   
+    font-variant-position:super;
+}
+section {
+    padding-top: 20px;
+    padding-left:50px;
+}
+section label {
+    float: left;
+    width: 15em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    padding-top: 0.25em;    
+}
+section input[type="text"], input[type="email"], input[type="password"] {
+    width: 15em;
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;
+}
+section input[type="submit"] {
+    margin-left: 1em;
+    width: 10em;
+    height: 2em;
+    
+}
+
+.booksectionheader{
+    font-size: 350%;
+    color: orangered;
+    text-align:left;
+    padding-left: 50px;
+    padding-top: 20px;
+    
+}
+
+.message{
+    font-size: 200%;
+    color: orangered;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.login{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.adminloginlabel{
+    padding-left: 10px;
+}
+.adminlogintext{
+    padding-left: 15px;
+}
+.adminloginheading{
+    padding-top: 50px;
+    color: orangered;
+    padding-left: 10px;
+    font-size: 200%;
+    
+}
+
